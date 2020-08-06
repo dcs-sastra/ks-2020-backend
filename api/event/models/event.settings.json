@@ -18,19 +18,11 @@
     "reg_link": {
       "type": "string"
     },
-    "poster": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "contacts": {
       "collection": "contact"
+    },
+    "poster_link": {
+      "type": "string"
     }
   }
 }
