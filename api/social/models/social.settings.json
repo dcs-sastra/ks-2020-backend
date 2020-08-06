@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socials",
+  "info": {
+    "name": "Social"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Instagram",
+        "Facebook",
+        "LinkedIn",
+        "Twitter"
+      ]
+    }
+  }
+}

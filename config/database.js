@@ -12,5 +12,3 @@ module.exports = ({ env }) => ({
     },
   },
 });
-
-console.log(process.env.DATABASE_URI);

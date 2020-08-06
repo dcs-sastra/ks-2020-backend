@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clusters",
+  "info": {
+    "name": "Cluster"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "events": {
+      "collection": "event"
+    },
+    "socials": {
+      "collection": "social"
+    }
+  }
+}

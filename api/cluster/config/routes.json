@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/clusters",
+      "handler": "cluster.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clusters/count",
+      "handler": "cluster.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clusters/:id",
+      "handler": "cluster.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/clusters",
+      "handler": "cluster.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/clusters/:id",
+      "handler": "cluster.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/clusters/:id",
+      "handler": "cluster.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

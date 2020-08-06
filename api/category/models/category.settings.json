@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "clusters": {
+      "collection": "cluster"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
