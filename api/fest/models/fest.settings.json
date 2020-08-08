@@ -15,8 +15,8 @@
     "categories": {
       "collection": "category"
     },
-    "contact": {
-      "model": "contact"
+    "contacts": {
+      "collection": "contact"
     },
     "socials": {
       "collection": "social"
