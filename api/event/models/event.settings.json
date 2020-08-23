@@ -23,6 +23,9 @@
     },
     "poster_link": {
       "type": "string"
+    },
+    "youtube_link": {
+      "type": "string"
     }
   }
 }
